@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="White"
+        android:id="@+id/white"
+        android:iconTint="@color/white"
+        android:icon="@drawable/baseline_settings_24"
+        />
+
+    <item android:title="File"
+        android:id="@+id/file"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        android:icon="@drawable/baseline_attach_file_24"/>
+    <item
+        android:id="@+id/black"
+        android:title="Black"/>
+    <item
+        android:id="@+id/green"
+        android:title="Green"/>
+    <item
+        android:id="@+id/red"
+        android:title="Title"/>
+
+
+
+</menu>

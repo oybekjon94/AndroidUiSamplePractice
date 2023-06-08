@@ -11,7 +11,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/androiduipractice" />
+            <option value="$PROJECT_DIR$/androiduipractice/calculateapp" />
+            <option value="$PROJECT_DIR$/androiduipractice/constarintlayout" />
             <option value="$PROJECT_DIR$/androiduipractice/edittext" />
+            <option value="$PROJECT_DIR$/androiduipractice/framelayout" />
+            <option value="$PROJECT_DIR$/androiduipractice/generaterandomnumber" />
+            <option value="$PROJECT_DIR$/androiduipractice/loginpagewithtablelayout" />
+            <option value="$PROJECT_DIR$/androiduipractice/optionsmenu" />
+            <option value="$PROJECT_DIR$/androiduipractice/relativelayout" />
+            <option value="$PROJECT_DIR$/androiduipractice/simpleuielements" />
+            <option value="$PROJECT_DIR$/androiduipractice/tablelayout" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

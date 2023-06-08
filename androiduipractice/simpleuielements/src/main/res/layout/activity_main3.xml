@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layoutDirection="rtl"
+        android:text="Download upto 5mb" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Notification" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/togglebtn"
+        android:checked="true"
+        android:textOff="Ochik"
+        android:textOn="Yoniq" />
+
+    <com.google.android.material.slider.Slider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slider"
+        android:stepSize="10"
+        android:value="30"
+        android:valueFrom="o"
+        android:valueTo="100" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rangeSlider"
+        android:stepSize="10"
+        android:valueFrom="o"
+        android:valueTo="100"
+        app:values="@array/initial" />
+
+</LinearLayout>

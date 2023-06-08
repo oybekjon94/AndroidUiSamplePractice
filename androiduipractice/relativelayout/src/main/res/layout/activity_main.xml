@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@color/green" />
+
+    <TextView
+        android:id="@+id/userNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="60dp"
+        android:text="Ismingiz?"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/userNameTv"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/userNameTv"
+        android:hint="Ismingizni kiriting: " />
+
+    <TextView
+        android:id="@+id/passwordTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userNameTv"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="24dp"
+        android:text="Parol :" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/passwordTv"
+        android:layout_marginStart="24dp"
+        android:hint="Parolni kiriting"
+        android:layout_toEndOf="@id/passwordTv" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordTv"
+        android:layout_marginTop="24dp"/>
+</RelativeLayout>

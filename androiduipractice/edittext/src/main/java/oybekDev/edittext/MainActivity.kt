@@ -1,15 +1,20 @@
 package oybekDev.edittext
 
+import  android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val userImage = findViewById<ImageView>(R.id.userImage)
+
         val nameEt = findViewById<EditText>(R.id.nameEt)
         val emailEt = findViewById<EditText>(R.id.emailEt)
         val passwordEt = findViewById<EditText>(R.id.passwordEt)
@@ -19,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val registerBtn = findViewById<Button>(R.id.button)
 
         registerBtn.setOnClickListener{
+
             nameTv.text = "Name: ${nameEt.text}"
             emailTv.text = "Email: ${emailEt.text}"
             passwordTv.text = "Password: ${passwordEt.text}"
